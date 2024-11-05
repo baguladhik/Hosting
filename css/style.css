@@ -1121,7 +1121,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-title{
     font-family: 'Montserrat-Light', sans-serif;
     font-size: 25px;
-    color: #3c99ef;
+    color: #0062bf;
     margin-bottom: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1396,7 +1396,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #7774e7;
 }
 #sub-pricing .pricing-box.blue-after:after{
-    background-color: #3c99ef;
+    background-color: #0062bf;
 }
 
 #sub-pricing .pricing-box .pricing-icon{
@@ -1414,7 +1414,7 @@ h1, h2, h3, h4, h5, h6 {
 #sub-pricing .pricing-box .pricing-title{
     font-family: 'Montserrat-SemiBold', sans-serif;
     font-size: 36px;
-    color: #3c99ef;
+    color: #0062bf;
     margin-bottom: 10px;
 }
 #sub-pricing .pricing-box .pricing-amount{
@@ -1629,8 +1629,8 @@ h1, h2, h3, h4, h5, h6 {
 #platforms ul.platforms-list li .platform-link .tool-tip{
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 16px;
-    color: #3c99ef;
-    border:1px solid #3c99ef;
+    color: #0062bf;
+    border:1px solid #0062bf;
     background-color: #ecf8ff;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -1650,8 +1650,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #platforms ul.platforms-list.left-list li .platform-link .tool-tip:after{
     content: "";
-    border-top:1px solid #3c99ef;
-    border-right:1px solid #3c99ef;
+    border-top:1px solid #0062bf;
+    border-right:1px solid #0062bf;
     background-color: #ecf8ff;
     width: 10px;
     height: 10px;
@@ -1673,8 +1673,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #platforms ul.platforms-list.right-list li .platform-link .tool-tip:after{
     content: "";
-    border-left:1px solid #3c99ef;
-    border-bottom:1px solid #3c99ef;
+    border-left:1px solid #0062bf;
+    border-bottom:1px solid #0062bf;
     background-color: #ecf8ff;
     width: 10px;
     height: 10px;
@@ -1734,7 +1734,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ffffff;
 }
 #details .col-title-blue{
-    color: #3c99ef;
+    color: #0062bf;
     font-size: 25px;
     font-family: 'Montserrat-Light', sans-serif;
     margin-bottom: 25px;
@@ -1746,7 +1746,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 70px;
 }
 #details .col-title{
-    color: #3c99ef;
+    color: #0062bf;
     font-size: 25px;
     font-family: 'Montserrat-Light', sans-serif;
     margin-bottom: 25px;
@@ -1929,7 +1929,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat-Light', sans-serif;
 }
 a.lg-link{
-    color: #3c99ef;
+    color: #0062bf;
     font-size: 25px;
     font-family: 'Montserrat-Light', sans-serif;
     text-decoration: none;
@@ -1997,7 +1997,7 @@ a.lg-link:hover{
     margin-bottom: 30px;
 }
 #page-content .article-box .article-info a{
-    color: #3c99ef;
+    color: #0062bf;
     text-decoration: none;
     font-family: 'Montserrat-Light', sans-serif;
 }
@@ -2018,7 +2018,7 @@ a.lg-link:hover{
     margin-bottom: 30px;
 }
 #page-content .article-box.full-article .article-info a{
-    color: #3c99ef;
+    color: #0062bf;
     text-decoration: none;
     font-family: 'Montserrat-Light', sans-serif;
 }
@@ -2132,6 +2132,13 @@ body.full-page .signin-signup-form .links-holder a:hover,
 body.full-page .signin-signup-form .links-holder a:focus{
     opacity: 0.7;
 }
+
+/* about-us */
+
+.about-img img{
+    width: 50%;
+}
+
 /*------------------------------------------------------------------
 	13. Responsive Styles
 -------------------------------------------------------------------*/
@@ -2205,8 +2212,8 @@ body.full-page .signin-signup-form .links-holder a:focus{
     #platforms ul.platforms-list.left-list li .platform-link .tool-tip:after{
         content: "";
         border-top: 0;
-        border-bottom:1px solid #3c99ef;
-        border-right:1px solid #3c99ef;
+        border-bottom:1px solid #0062bf;
+        border-right:1px solid #0062bf;
         background-color: #ecf8ff;
         width: 10px;
         height: 10px;
@@ -2233,8 +2240,8 @@ body.full-page .signin-signup-form .links-holder a:focus{
     #platforms ul.platforms-list.right-list li .platform-link .tool-tip:after{
         content: "";
         border-bottom:0;
-        border-left:1px solid #3c99ef;
-        border-top:1px solid #3c99ef;
+        border-left:1px solid #0062bf;
+        border-top:1px solid #0062bf;
         background-color: #ecf8ff;
         width: 10px;
         height: 10px;
@@ -2262,6 +2269,11 @@ body.full-page .signin-signup-form .links-holder a:focus{
     }
 }
 @media (max-width: 767px) {
+    .big-title {
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+    }
     .dropdown-menu {
         position: relative;
         display: block;
