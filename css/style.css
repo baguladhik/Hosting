@@ -1143,7 +1143,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #0464bc;
-    text-align: center;
+    /* text-align: center; */
 }
 #brief .row-title{
     font-family: 'Montserrat-SemiBold', sans-serif;
@@ -1155,7 +1155,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat-Light', sans-serif;
     font-size: 16px;
     color: #fff;
-    padding: 5px 100px;
+    padding: 5px 0px;
+}
+#brief .img-about img{
+    width: 47%;
 }
 #message{
     padding-top: 80px;
@@ -1204,7 +1207,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #services{
-    background-color: #3a4c5c;
+    /* background-color: #3a4c5c; */
+    background-image: linear-gradient(-225deg, #011142 0%, #000000 48%, #030307 100%) !important;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
@@ -1258,13 +1262,13 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration:none;
     border-radius: 6px;
     color: #d6e0ea;
-    border:1px solid #5e6e7d;
+    border:1px solid #0464bc;
     display: inline-block;
     background-color: transparent;
 }
 #services .more-details-button:hover,#services .more-details-button:focus{
     color: #ffffff;
-    background-color: #5e6e7d;
+    background-color: #0464bc;
     text-decoration:none;
 }
 
