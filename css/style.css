@@ -270,12 +270,27 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------------------------------------
 	3. Top Content Section Styles
 -------------------------------------------------------------------*/
+
 #top-content{
-    padding-top: 115px;
-    background-image: linear-gradient(-225deg, #011142 0%, #000000 48%, #030307 100%) !important;
-    background-image: url('../images/top-bg.png');
+    padding: 115px 0 115px;
+    /* background: url(../images/dark-2.jpg) center top / 100% no-repeat rgb(16, 18, 36); */
+    background-image: linear-gradient(-225deg, #011142 0%, #000000 48%, #030307 100%) !important; */
+    /* background-image: url('../images/top-bg.png');*/
     background-repeat: repeat;
     background-size: 15px 15px;
+}
+#top-content.home-top-content{
+    padding: 115px 0 115px;
+    background: url(../images/dark-2.jpg) center top / 100% no-repeat rgb(16, 18, 36)!important;
+}
+.home-top-content .sub-title{
+    margin: 60px 0;
+}
+.hero-left-img{
+    text-align: right;
+}
+.hero-left-img img{
+    width: 70%;
 }
 .big-title{
     font-family: 'Palanquin Dark', sans-serif;
@@ -320,6 +335,11 @@ h1, h2, h3, h4, h5, h6 {
 .domain-search-holder input[type="submit"]:hover,.domain-search-holder input[type="submit"]:focus{
     background-color: #0e76d0;
 }
+#domain-search{
+    display: flex;
+    align-items: center;
+}
+
 .text-search-holder{
     margin-top: 30px;
 }
@@ -2449,5 +2469,16 @@ body.full-page .signin-signup-form .links-holder a:focus{
     }
     #top-content {
         padding-top: 70px;
+        text-align: center;
+    }
+    .hero-left-img {
+        text-align: center;
+    }
+    .home-top-content .sub-title {
+        margin: 15px 0;
+    }
+    #domain-search{
+        display: block;
+        align-items: center;
     }
 }
