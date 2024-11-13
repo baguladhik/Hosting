@@ -2373,8 +2373,22 @@ body.full-page .signin-signup-form .links-holder a:focus{
         text-align: center;
     }
     #message .row { display: flex; flex-direction: column; }
+    .home-top-content .row { display: flex; flex-direction: column; }
     .a-order { order: 2; }
-    .b-order { order: 1; }    
+    .b-order { order: 1; }   
+    
+    #top-content {
+        padding-top: 70px;
+        text-align: center;
+    }
+    .hero-left-img {
+        text-align: center;
+    }
+    #domain-search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media (max-width: 480px) {
     .domain-search-holder input[type="text"] {
@@ -2481,4 +2495,11 @@ body.full-page .signin-signup-form .links-holder a:focus{
         display: block;
         align-items: center;
     }
+    #top-content.home-top-content {
+        padding: 15px 0 15px;
+    }
+    .hero-left-img img {
+        width: 70%;
+        padding: 15px;
+    }    
 }
